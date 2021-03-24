@@ -62,7 +62,7 @@ body {
 .card__header:after {
   content: '';
   display: block;
-  width: clamp(10%, 20%, 30%);
+  width: calc(5rem + 5vmin);
   height: 2px;
   background-color: #fff;
   margin: 32px auto 28px;
