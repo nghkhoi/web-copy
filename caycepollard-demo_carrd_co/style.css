@@ -1,0 +1,88 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0; 
+  padding: 0;
+}
+
+body {
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Utility */
+
+.u-fade-in {
+  animation: fadeIn ease 3s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+/* Component */
+
+.card {
+  box-shadow: rgba(32, 46, 66, 0.06) 0px 12.8333px 22px 0px;
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 366px;
+  height: 683px;
+}
+
+.card__avatar {
+  width: 100%;
+}
+
+.card__content {
+  padding: 29px;
+}
+
+.card__title {
+  color: #898e96;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 50px;
+  margin: 7px 0 3px;
+}
+
+.card__subtitle {
+  color: rgb(152, 158, 166);
+  font-size: 17px;
+  line-height: 29px;
+}
+
+.card__body {
+  color: rgba(152, 158, 166, 0.59);
+  font-size: 15px;
+  line-height: 26px;
+  margin: 35px 0;
+}
+
+.card__linkroll {
+  list-style-type: none;
+}
+
+.linkroll__item {
+  display: inline-block;
+}
+
+.icon {
+  fill: #898e96;
+  width: 22px;
+  margin: 0 4px;
+}
+
+.icon:hover {
+  fill: #8393e6;;
+}
